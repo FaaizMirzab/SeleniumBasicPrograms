@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+<groups>
+<run>
+<include name ="reg">
+</include>
+<exclude name="smoke"></exclude>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.Group"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
