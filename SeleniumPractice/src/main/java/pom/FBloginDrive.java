@@ -24,10 +24,10 @@ public class FBloginDrive {
 	
 	//utilization using non static method
 	public void setUserName() {
-		username.sendKeys("9445620354");
+		username.sendKeys("************");
 	}
 	public void setPassword() {
-		password.sendKeys("FFmrz1532@");
+		password.sendKeys("**********");
 	}
 	public void login() {
 		login.click();
